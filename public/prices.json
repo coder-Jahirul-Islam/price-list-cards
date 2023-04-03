@@ -1,0 +1,33 @@
+[
+    { 
+      "id": 1,
+      "name": "FitZone", 
+      "features": ["Cardio equipment", "Strength training", "Group classes"], 
+      "price": 50
+    },
+    {
+      "id": 2,
+      "name": "PowerHouse Gym",
+      "features": ["Weightlifting equipment", "Personal training", "Sauna"],
+      "price": 60
+    },
+    {
+      "id": 3,
+      "name": "Gold's Gym",
+      "features": ["Cardio equipment", "Strength training", "Yoga classes"],
+      "price": 70
+    },
+    {
+      "id": 4,
+      "name": "24 Hour Fitness",
+      "features": ["Cardio equipment", "Strength training", "Indoor pool"],
+      "price": 80
+    },
+    {
+      "id": 5,
+      "name": "Anytime Fitness",
+      "features": ["Cardio equipment", "Strength training", "24-hour access"],
+      "price": 40
+    }
+  ]
+  
