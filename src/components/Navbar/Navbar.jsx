@@ -7,9 +7,6 @@ const Navbar = () => {
 
 
 
-
-
-
     const routes = [
         {
             id: 1,
@@ -41,7 +38,7 @@ const Navbar = () => {
 
 
     return (
-        <nav className='bg-purple-400'>
+        <nav className='bg-purple-400 px-5'>
             <div onClick={() => setOpen(!open)} className='md:hidden'>
                 <span>
                     {open === true ?
@@ -51,7 +48,7 @@ const Navbar = () => {
                 </span>
 
             </div>
-            <ul className={`md:flex absolute md:static duration-500 pl-8 py-3 rounded-sm bg-purple-400 ${open ? 'top-5' : '-top-36'}`}>
+            <ul className={`md:flex absolute md:static duration-500 px-12 py-3 rounded-sm bg-purple-400 ${open ? 'top-5' : '-top-36'}`}>
                 {
                     routes.map(route => <Link key={route.id} route={route}></Link>)
                 }
